@@ -25,26 +25,31 @@ String[] artPos = {
 };
 
 String[] noun = { 
-   "language "/*0*/   , "word "/*1*/   , "character "/*2*/  , 
-   "sound "/*3*/   , "shape "/*4*/   , "stroke "/*5*/  , 
-   "voice "/*6*/   , "letter "/*7*/   , "tongue "/*8*/  , 
-   "silence "/*9*/   , "movement "/*10*/   , "paper "/*11*/  , 
-   "colapse "/*12*/   , "memory "/*13*/   , "night "/*14*/  , 
-   "lie "/*15*/   , "misunderstanding "/*16*/   , "border "/*17*/  , 
-   "dream "/*18*/   , "humanity "/*19*/   , "priest "/*20*/  , 
-   "reader "/*21*/   , "professor "/*22*/   , "lawyer "/*23*/  , 
-   "viewer "/*24*/   , "mother  "/*25*/   , "father "/*26*/   , "brother "/*27*/  , 
-   "sister "/*28*/   , "sense "/*29*/  , "meaning ", "mute ", "untangible ", "miracle ",
+   "language "   , "word " , "character " , 
+   "sound "  , "shape " , "stroke ", 
+   "voice "   , "letter " , "tongue ", 
+   "silence " , "movement " , "paper ", 
+   "colapse " , "memory " , "night ", 
+   "lie " , "misunderstanding " , "border ", 
+   "dream " , "humanity " , "priest ", 
+   "reader " , "professor " , "lawyer ", 
+   "viewer " , "mother  " , "father ", "brother ", 
+   "sister " , "sense " , "meaning ",  "miracle ",
    "falsehood ", "paranoia ", "geopolitics ", "machine ", "inteligence ", "bureaucrat ",
-   "animal ", "canibal ", "men ", "woman ", "myth ", "past ", "air ", "automobile ", 
+   "animal ", "canibal ", "men ", "woman ", "myth ", "past ", "air ", 
    "survailance  ", "imagination ", "sleeping pills ", "immigrant ", "nationalist ", 
-   "xenophobe ", "baby ", "flower ", "insect ", "bard ", "police officer ", 
+   "xenophobe ", "bard ", "police officer ", 
    "president ", "politician ", "gallery owner ", "artist ", 
    "poet ", "novelist ", "translator ", "dancer ", "killer ", "criminal ", "saint ", 
-   "bishop ", "pope ", "cat ", "dog ", "bomb ", "soldier ", "revolutionary ", "rebel ",
+   "bishop ", "pope ", "bomb ", "soldier ", "revolutionary ", "rebel ",
    "verb ", "translation ", "shape ", "cloud ", "script ", "bone ", "drawing ", "girl ",
    "city ", "metal ", "sea ", "ocean ", "information ", "feather ", "ink ", "future ", 
-   "present ", "fingertip ", "arms ", "legs ", "head " 
+   "present ", "fingertip ", "arms ", "legs ", "head " , "speach ", "sign ", "mouth ", 
+   "meaning ", "method ", "text ", "persona ", "image ", "fiber ", "letter ", 
+   "fantasy ", "dimension ", "spirit ", "drama ", "personality ", "rune ", 
+   "capital ", "picture ", "ideograph ", "genetics ", "totem ", "space ",
+   "ideogram ", "being ", "ethos ", "essence ", "sexuality ", "skin ", 
+   "identity "
 };
 // the(0-11) for(12-16) about(17-21) from(22-24) in to(25-26) with(27-28)
 String[] verb0 = { //present - no possibilites to denial
@@ -58,6 +63,32 @@ String[] verb0 = { //present - no possibilites to denial
   /*FROM*/   "runs away "/*22*/   , "escapes "/*23*/   , "returns "/*24*/  , 
   /*IN TO*/   "turns "/*25*/   , "transforms "/*26*/  , /*WITH*/ "interacts "/*27*/, 
    "has sex "/*28*/  , "works "
+};
+
+
+String[] verb8 = {
+  // the (0-22)
+  "controls ", "speaks ", "caresses ", "recites ", "imagines ", "sings ", "creates ", "simplifies ",
+  "dominates ", "buys ", "crushes ", "misses ", "leads ", "capture ", "imprison ", "foresees ", 
+  "reconfigures ", "dismantles ", "fingers ", "touches ", "hurts ", "understands ", "admires ",
+  "betrays ", "rejects ", 
+  // for
+  "cries ", "dies ", "pays ", "falls ", "prays ", "preaches ", "writes ", "drinks ", "fractures ",
+  "votes ", "speaks ", "gets sober ", "sleeps ", "works ", "suffers ", "reads ", "dances ",
+  "bows ", "begs ", "runs ", "waits ", "apologises ", "prepares ", "fights ",
+  // about
+  "writes ", "lies ", "forgets ", "dreams ", "cares ",  
+  // on
+  "concentrates ", "writes ", "draws ", "walks ", "sleeps ", "relies ",
+  // with
+  "agrees ", "has sex ", "works ", "talks ", "falls in love ", "has babies ", "goes to hell ", 
+  "goes travelling ", "drinks ", "eats ", "dies ", "is born ", "smokes ",  
+  // to
+  "is addicted ", "transmutes ", "has fallen ", "goes ", "flies ",
+  // from 
+  "hides ", "runs away ", 
+  // in 
+  "dives ", "buries itself ", "hides "
 };
 
 String[] verb1 = { //past - possiblity to denial also
@@ -109,7 +140,7 @@ String[] adj0 = {
    "frozen "/*21*/   , "melting "/*22*/   , "delusional "/*23*/  , 
    "hallucinating "/*24*/   , "lonely "/*25*/   , "lost "/*26*/  , 
    "born "/*27*/  , "pervert ", "praying ", "saint ", "problematic ", 
-  "cold hearted ", "twisting "
+  "cold hearted ", "twisting ", "untangible "
 };  
 
 String[] obj0 = {
@@ -118,10 +149,10 @@ String[] obj0 = {
    "world capital "/*6*/   , "gravity "/*7*/   , "bong "/*8*/  , 
    "money "/*9*/   , "universality "/*10*/   , "entropy "/*11*/  , 
    "inteligence "/*12*/   , "earth "/*13*/   , "madness "/*14*/  , 
-  "bird ", "religion ", "church ", "democracy ", 
-  "nazi ", "past ", "future ", "moon ", "insect ", 
-  "galaxy ", "food ", "art ", "toilet paper ", 
-  "poetry ", "woman ", "man ", "human nature ",
+   "bird ", "religion ", "church ", "democracy ", 
+   "nazi ", "past ", "future ", "moon ", "insect ", 
+   "galaxy ", "food ", "art ", "toilet paper ", 
+   "poetry ", "woman ", "man ", "human nature ",
 };
 
 String[] adjAb = { 
