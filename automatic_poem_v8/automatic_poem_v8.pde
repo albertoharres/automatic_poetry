@@ -2,85 +2,96 @@
 ///////////////// G R A M A T I C S  ////////////////
 ////////////////////////////////////////////////////
 PShader blur;
-boolean poema = true; 
+// masculino feminino 
 boolean fem = false;
+// tempo verbal
 boolean past, present, future; 
 
 // Strings for the first frase.
+// Nome, adjetivo, verbo, objeto, artigo 1, artigo 2
 String N, adj, V, O, art, art2;
 
+// font
 PFont f;
 int fontSize = 30;
+
+// Positioning
 // Y value for each line
 int L1 = 50;
 int L2 = L1 + fontSize;
 int L3 = L2 + fontSize;
 
+// Word spacing
 // Space that each string occupies
 float E_n, E_art, E_ad, E_v, E_obj, E_art2; 
-// Int value that picks random string inside list
+
+// guardar valor de índice 
 int Nx, Vx, Ax, Ox, Artx, Artx2; 
 
 // values that define random parametres
 int Org = 0; // Random variable that defines what type of phrase structure
 int Org2 = 1; //  type of the second sentence.
-int Org22 = 1; 
+int Org22 = 1;  // ?????
 int not, rand, randA, randV;
 
 float MasterRand; 
 
-// number for the position of each element on the sentence
+// Position number of each part in sentence
 int posN, posV, posAdj, posO, posArt, posArt2;
 
-// possible positions in a phrase
+// Posíveis posicionamentos da frase
 float[] pos = new float[6];  
 float[] pos2 = new float[3];
 float[] pos3 = new float[3];
 
 // For article and Font
 String Art, Font;
-String letterN, letterAdj, letterArt; // First letter of the word to define Article a or an
+// First letter of the word to define Article a or an
+String letterN, letterAdj, letterArt; 
 
 void setup() {
 
   size(800, 700);
   background(0); 
-
+  // pega uma fonte aleatória
   Font = Fonts[int(random(0, Fonts.length))];
   f = createFont(Font, fontSize);
 
   all();
   //poema();
   //poema2();
-  //poema3();a
+  //poema3();
   println("Press 'a' to run the poem");
 }
 
 void draw() { 
-  if (poema == true) {
-    //    poema();
-  }
+  
 }
 
+// função que faz tudo
 void all() {
 
-  randV = int(random(0, 10)); // Time of verb
   MasterRand = random(0, 9);
-
+  
+  // Setar tempo verbal
+  randV = int(random(0, 10)); // Time of verb
   if (randV < 5) {
+    // passado
     past = true;
     present = false;
     future = false;
   } else if ((randV >= 5) && (randV < 8)) { 
+    // presente
     past = false;
     present = true;
     future = false;
   } else {
+    // futuro
     past = false;
     present = false;
     future = true;
   }
-
+  // sujeito ativo ou passivo
   if (MasterRand >= 4) {
     active();
   } else {
@@ -89,13 +100,5 @@ void all() {
 }
 
 void keyPressed() {
-
-  if (key == 'a') {
-    // poema();
-    all();
-  }
-  if (key == 's') {
-    saveFrame();
-  }
+  all();
 }
-

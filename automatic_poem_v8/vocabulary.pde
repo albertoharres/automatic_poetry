@@ -25,16 +25,26 @@ String[] artPos = {
 };
 
 String[] noun = { 
-   "alien "/*0*/   , "animal "/*1*/   , "artist "/*2*/  , 
-   "dealer "/*3*/   , "soldier "/*4*/   , "bird "/*5*/  , 
-   "criminal "/*6*/   , "city "/*7*/   , "self "/*8*/  , 
-   "mother  "/*9*/   , "dog "/*10*/   , "man "/*11*/  , 
-   "woman "/*12*/   , "wife "/*13*/   , "girl "/*14*/  , 
-   "gypsy "/*15*/   , "kid "/*16*/   , "baby "/*17*/  , 
-   "worker "/*18*/   , "teacher "/*19*/   , "priest "/*20*/  , 
-   "scientist "/*21*/   , "snake "/*22*/   , "lawyer "/*23*/  , 
-   "prostitute "/*24*/   , "mother  "/*25*/   , "native "/*26*/   , "brother "/*27*/  , 
-   "sister "/*28*/   , "father "/*29*/  , "bird "
+   "language "/*0*/   , "word "/*1*/   , "character "/*2*/  , 
+   "sound "/*3*/   , "shape "/*4*/   , "stroke "/*5*/  , 
+   "voice "/*6*/   , "letter "/*7*/   , "tongue "/*8*/  , 
+   "silence "/*9*/   , "movement "/*10*/   , "paper "/*11*/  , 
+   "colapse "/*12*/   , "memory "/*13*/   , "night "/*14*/  , 
+   "lie "/*15*/   , "misunderstanding "/*16*/   , "border "/*17*/  , 
+   "dream "/*18*/   , "humanity "/*19*/   , "priest "/*20*/  , 
+   "reader "/*21*/   , "professor "/*22*/   , "lawyer "/*23*/  , 
+   "viewer "/*24*/   , "mother  "/*25*/   , "father "/*26*/   , "brother "/*27*/  , 
+   "sister "/*28*/   , "sense "/*29*/  , "meaning ", "mute ", "untangible ", "miracle ",
+   "falsehood ", "paranoia ", "geopolitics ", "machine ", "inteligence ", "bureaucrat ",
+   "animal ", "canibal ", "men ", "woman ", "myth ", "past ", "air ", "automobile ", 
+   "survailance  ", "imagination ", "sleeping pills ", "immigrant ", "nationalist ", 
+   "xenophobe ", "baby ", "flower ", "insect ", "bard ", "police officer ", 
+   "president ", "politician ", "gallery owner ", "artist ", 
+   "poet ", "novelist ", "translator ", "dancer ", "killer ", "criminal ", "saint ", 
+   "bishop ", "pope ", "cat ", "dog ", "bomb ", "soldier ", "revolutionary ", "rebel ",
+   "verb ", "translation ", "shape ", "cloud ", "script ", "bone ", "drawing ", "girl ",
+   "city ", "metal ", "sea ", "ocean ", "information ", "feather ", "ink ", "future ", 
+   "present ", "fingertip ", "arms ", "legs ", "head " 
 };
 // the(0-11) for(12-16) about(17-21) from(22-24) in to(25-26) with(27-28)
 String[] verb0 = { //present - no possibilites to denial

@@ -1,10 +1,3 @@
-/*
-(because / since) + Object or (s)he + Verb + Obj2
- and + Verb + Object
- or + Obj2
- to + Verb + Art(his, her) + Obj 
- but + Object or (s)he + it 
- */
 String S1;
 
 String Cj, N0, V0, O0, art0, pro, A0, Adv, A1;
@@ -42,42 +35,16 @@ void since() {
     pro = "he ";
   }
 
-
-
   if (present == true) {
-
     V0x = int(random(0, verb1.length)); // Verb in Present
-    V0 = verb1[V0x];
-    /*    O0 = "all was lost ";
-     O0 = "there was nothing to lose ";
-     O0 = "it didn't matter ";
-     //    O0 = pro + V0 + "to ";
-     //O0 = Obj + "was" + Adj*/
-    //O0 = O + "is " + Adv + A0 + O0
+    V0 = verb1[V0x];    
     S1 = O + "is " + A1 + O0;
   } else {
-
     V0x = int(random(0, verb0.length)); // Verb in Past 
     V0 = verb0[V0x];
-
     O0 = "the " + O0 + "is " + A0;
-    //  O0 = "it doens't matter "
-    //   O0 = "there is nothing to lose "
-    //   O0 = "all is lost "
     S1 = Cj + O0;
   }
-
-
   L2 = L1 + fontSize;
   text(S1, pos[0], L2);
 }
-/*
-and() {
- }
- 
- to() {
- }
- 
- but() {
- }
- */
